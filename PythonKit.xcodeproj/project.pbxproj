@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		OBJ_101 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_107 /* OperatingSystemVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* OperatingSystemVersion.swift */; };
+		OBJ_108 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* main.swift */; };
+		OBJ_110 /* CommandLineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CommandLineKit::CommandLineKit::Product /* CommandLineKit.framework */; };
+		OBJ_111 /* LoggerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = LoggerKit::LoggerKit::Product /* LoggerKit.framework */; };
+		OBJ_112 /* PythonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = PythonKit::PythonKit::Product /* PythonKit.framework */; };
+		OBJ_52 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* CommandLine.swift */; };
+		OBJ_53 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Option.swift */; };
+		OBJ_54 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* StringExtensions.swift */; };
+		OBJ_61 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Package.swift */; };
+		OBJ_67 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Logger.swift */; };
+		OBJ_68 /* BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* BackgroundColor.swift */; };
+		OBJ_69 /* CodesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* CodesParser.swift */; };
+		OBJ_70 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Color.swift */; };
+		OBJ_71 /* ControlCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ControlCode.swift */; };
+		OBJ_72 /* ModesExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ModesExtractor.swift */; };
+		OBJ_73 /* OutputTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* OutputTarget.swift */; };
+		OBJ_74 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Rainbow.swift */; };
+		OBJ_75 /* String+Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* String+Rainbow.swift */; };
+		OBJ_76 /* StringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* StringGenerator.swift */; };
+		OBJ_77 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Style.swift */; };
+		OBJ_78 /* XcodeColorsSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* XcodeColorsSupport.swift */; };
+		OBJ_85 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Package.swift */; };
+		OBJ_91 /* NumpyConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* NumpyConversion.swift */; };
+		OBJ_92 /* Python.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Python.swift */; };
+		OBJ_93 /* PythonLibrary+Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* PythonLibrary+Symbols.swift */; };
+		OBJ_94 /* PythonLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* PythonLibrary.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CommandLineKit::CommandLineKit::Product /* CommandLineKit.framework */ = {isa = PBXFileReference; path = CommandLineKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		LoggerKit::LoggerKit::Product /* LoggerKit.framework */ = {isa = PBXFileReference; path = LoggerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* Python.swift */ = {isa = PBXFileReference; path = Python.swift; sourceTree = "<group>"; };
+		OBJ_11 /* PythonLibrary+Symbols.swift */ = {isa = PBXFileReference; path = "PythonLibrary+Symbols.swift"; sourceTree = "<group>"; };
+		OBJ_12 /* PythonLibrary.swift */ = {isa = PBXFileReference; path = PythonLibrary.swift; sourceTree = "<group>"; };
+		OBJ_14 /* OperatingSystemVersion.swift */ = {isa = PBXFileReference; path = OperatingSystemVersion.swift; sourceTree = "<group>"; };
+		OBJ_15 /* main.swift */ = {isa = PBXFileReference; path = main.swift; sourceTree = "<group>"; };
+		OBJ_17 /* PythonTool */ = {isa = PBXFileReference; path = PythonTool; sourceTree = SOURCE_ROOT; };
+		OBJ_18 /* PythonKit */ = {isa = PBXFileReference; path = PythonKit; sourceTree = SOURCE_ROOT; };
+		OBJ_22 /* Logger.swift */ = {isa = PBXFileReference; path = Logger.swift; sourceTree = "<group>"; };
+		OBJ_24 /* BackgroundColor.swift */ = {isa = PBXFileReference; path = BackgroundColor.swift; sourceTree = "<group>"; };
+		OBJ_25 /* CodesParser.swift */ = {isa = PBXFileReference; path = CodesParser.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Color.swift */ = {isa = PBXFileReference; path = Color.swift; sourceTree = "<group>"; };
+		OBJ_27 /* ControlCode.swift */ = {isa = PBXFileReference; path = ControlCode.swift; sourceTree = "<group>"; };
+		OBJ_28 /* ModesExtractor.swift */ = {isa = PBXFileReference; path = ModesExtractor.swift; sourceTree = "<group>"; };
+		OBJ_29 /* OutputTarget.swift */ = {isa = PBXFileReference; path = OutputTarget.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Rainbow.swift */ = {isa = PBXFileReference; path = Rainbow.swift; sourceTree = "<group>"; };
+		OBJ_31 /* String+Rainbow.swift */ = {isa = PBXFileReference; path = "String+Rainbow.swift"; sourceTree = "<group>"; };
+		OBJ_32 /* StringGenerator.swift */ = {isa = PBXFileReference; path = StringGenerator.swift; sourceTree = "<group>"; };
+		OBJ_33 /* Style.swift */ = {isa = PBXFileReference; path = Style.swift; sourceTree = "<group>"; };
+		OBJ_34 /* XcodeColorsSupport.swift */ = {isa = PBXFileReference; path = XcodeColorsSupport.swift; sourceTree = "<group>"; };
+		OBJ_35 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/hunturkey/Downloads/PythonKit-master/.build/checkouts/LoggerKit.git--5542624373777917957/Package.swift"; sourceTree = "<group>"; };
+		OBJ_38 /* CommandLine.swift */ = {isa = PBXFileReference; path = CommandLine.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Option.swift */ = {isa = PBXFileReference; path = Option.swift; sourceTree = "<group>"; };
+		OBJ_40 /* StringExtensions.swift */ = {isa = PBXFileReference; path = StringExtensions.swift; sourceTree = "<group>"; };
+		OBJ_41 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/hunturkey/Downloads/PythonKit-master/.build/checkouts/CommandLineKit.git--4243709605003110782/Package.swift"; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* NumpyConversion.swift */ = {isa = PBXFileReference; path = NumpyConversion.swift; sourceTree = "<group>"; };
+		PythonKit::PythonKit::Product /* PythonKit.framework */ = {isa = PBXFileReference; path = PythonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		PythonKit::PythonTool::Product /* PythonTool */ = {isa = PBXFileReference; path = PythonTool; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				OBJ_110 /* CommandLineKit.framework in Frameworks */,
+				OBJ_111 /* LoggerKit.framework in Frameworks */,
+				OBJ_112 /* PythonKit.framework in Frameworks */,
+			);
+		};
+		OBJ_55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		OBJ_79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		OBJ_95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_13 /* PythonTool */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_14 /* OperatingSystemVersion.swift */,
+				OBJ_15 /* main.swift */,
+			);
+			name = PythonTool;
+			path = PythonTool;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			path = "";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_19 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_20 /* LoggerKit */,
+				OBJ_36 /* CommandLineKit */,
+			);
+			name = Dependencies;
+			path = "";
+			sourceTree = "<group>";
+		};
+		OBJ_20 /* LoggerKit */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* LoggerKit */,
+				OBJ_35 /* Package.swift */,
+			);
+			name = LoggerKit;
+			path = "";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_21 /* LoggerKit */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_22 /* Logger.swift */,
+				OBJ_23 /* Rainbow */,
+			);
+			name = LoggerKit;
+			path = ".build/checkouts/LoggerKit.git--5542624373777917957/LoggerKit";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_23 /* Rainbow */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* BackgroundColor.swift */,
+				OBJ_25 /* CodesParser.swift */,
+				OBJ_26 /* Color.swift */,
+				OBJ_27 /* ControlCode.swift */,
+				OBJ_28 /* ModesExtractor.swift */,
+				OBJ_29 /* OutputTarget.swift */,
+				OBJ_30 /* Rainbow.swift */,
+				OBJ_31 /* String+Rainbow.swift */,
+				OBJ_32 /* StringGenerator.swift */,
+				OBJ_33 /* Style.swift */,
+				OBJ_34 /* XcodeColorsSupport.swift */,
+			);
+			name = Rainbow;
+			path = Rainbow;
+			sourceTree = "<group>";
+		};
+		OBJ_36 /* CommandLineKit */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_37 /* CommandLineKit */,
+				OBJ_41 /* Package.swift */,
+			);
+			name = CommandLineKit;
+			path = "";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_37 /* CommandLineKit */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_38 /* CommandLine.swift */,
+				OBJ_39 /* Option.swift */,
+				OBJ_40 /* StringExtensions.swift */,
+			);
+			name = CommandLineKit;
+			path = ".build/checkouts/CommandLineKit.git--4243709605003110782/CommandLineKit";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CommandLineKit::CommandLineKit::Product /* CommandLineKit.framework */,
+				PythonKit::PythonKit::Product /* PythonKit.framework */,
+				PythonKit::PythonTool::Product /* PythonTool */,
+				LoggerKit::LoggerKit::Product /* LoggerKit.framework */,
+			);
+			name = Products;
+			path = "";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_16 /* Tests */,
+				OBJ_17 /* PythonTool */,
+				OBJ_18 /* PythonKit */,
+				OBJ_19 /* Dependencies */,
+				OBJ_42 /* Products */,
+			);
+			path = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* PythonKit */,
+				OBJ_13 /* PythonTool */,
+			);
+			name = Sources;
+			path = "";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* PythonKit */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* NumpyConversion.swift */,
+				OBJ_10 /* Python.swift */,
+				OBJ_11 /* PythonLibrary+Symbols.swift */,
+				OBJ_12 /* PythonLibrary.swift */,
+			);
+			name = PythonKit;
+			path = PythonKit;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CommandLineKit::CommandLineKit /* CommandLineKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_48 /* Build configuration list for PBXNativeTarget "CommandLineKit" */;
+			buildPhases = (
+				OBJ_51 /* Sources */,
+				OBJ_55 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandLineKit;
+			productName = CommandLineKit;
+			productReference = CommandLineKit::CommandLineKit::Product /* CommandLineKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CommandLineKit::SwiftPMPackageDescription /* CommandLineKitPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_57 /* Build configuration list for PBXNativeTarget "CommandLineKitPackageDescription" */;
+			buildPhases = (
+				OBJ_60 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandLineKitPackageDescription;
+			productName = CommandLineKitPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		LoggerKit::LoggerKit /* LoggerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_63 /* Build configuration list for PBXNativeTarget "LoggerKit" */;
+			buildPhases = (
+				OBJ_66 /* Sources */,
+				OBJ_79 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoggerKit;
+			productName = LoggerKit;
+			productReference = LoggerKit::LoggerKit::Product /* LoggerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		LoggerKit::SwiftPMPackageDescription /* LoggerKitPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_81 /* Build configuration list for PBXNativeTarget "LoggerKitPackageDescription" */;
+			buildPhases = (
+				OBJ_84 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoggerKitPackageDescription;
+			productName = LoggerKitPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		PythonKit::PythonKit /* PythonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_87 /* Build configuration list for PBXNativeTarget "PythonKit" */;
+			buildPhases = (
+				OBJ_90 /* Sources */,
+				OBJ_95 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PythonKit;
+			productName = PythonKit;
+			productReference = PythonKit::PythonKit::Product /* PythonKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		PythonKit::PythonTool /* PythonTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_103 /* Build configuration list for PBXNativeTarget "PythonTool" */;
+			buildPhases = (
+				OBJ_106 /* Sources */,
+				OBJ_109 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_113 /* PBXTargetDependency */,
+				OBJ_114 /* PBXTargetDependency */,
+				OBJ_115 /* PBXTargetDependency */,
+			);
+			name = PythonTool;
+			productName = PythonTool;
+			productReference = PythonKit::PythonTool::Product /* PythonTool */;
+			productType = "com.apple.product-type.tool";
+		};
+		PythonKit::SwiftPMPackageDescription /* PythonKitPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_97 /* Build configuration list for PBXNativeTarget "PythonKitPackageDescription" */;
+			buildPhases = (
+				OBJ_100 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PythonKitPackageDescription;
+			productName = PythonKitPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "PythonKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_42 /* Products */;
+			projectDirPath = .;
+			targets = (
+				CommandLineKit::CommandLineKit /* CommandLineKit */,
+				CommandLineKit::SwiftPMPackageDescription /* CommandLineKitPackageDescription */,
+				LoggerKit::LoggerKit /* LoggerKit */,
+				LoggerKit::SwiftPMPackageDescription /* LoggerKitPackageDescription */,
+				PythonKit::PythonKit /* PythonKit */,
+				PythonKit::SwiftPMPackageDescription /* PythonKitPackageDescription */,
+				PythonKit::PythonTool /* PythonTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				OBJ_101 /* Package.swift in Sources */,
+			);
+		};
+		OBJ_106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				OBJ_107 /* OperatingSystemVersion.swift in Sources */,
+				OBJ_108 /* main.swift in Sources */,
+			);
+		};
+		OBJ_51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				OBJ_52 /* CommandLine.swift in Sources */,
+				OBJ_53 /* Option.swift in Sources */,
+				OBJ_54 /* StringExtensions.swift in Sources */,
+			);
+		};
+		OBJ_60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				OBJ_61 /* Package.swift in Sources */,
+			);
+		};
+		OBJ_66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				OBJ_67 /* Logger.swift in Sources */,
+				OBJ_68 /* BackgroundColor.swift in Sources */,
+				OBJ_69 /* CodesParser.swift in Sources */,
+				OBJ_70 /* Color.swift in Sources */,
+				OBJ_71 /* ControlCode.swift in Sources */,
+				OBJ_72 /* ModesExtractor.swift in Sources */,
+				OBJ_73 /* OutputTarget.swift in Sources */,
+				OBJ_74 /* Rainbow.swift in Sources */,
+				OBJ_75 /* String+Rainbow.swift in Sources */,
+				OBJ_76 /* StringGenerator.swift in Sources */,
+				OBJ_77 /* Style.swift in Sources */,
+				OBJ_78 /* XcodeColorsSupport.swift in Sources */,
+			);
+		};
+		OBJ_84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				OBJ_85 /* Package.swift in Sources */,
+			);
+		};
+		OBJ_90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				OBJ_91 /* NumpyConversion.swift in Sources */,
+				OBJ_92 /* Python.swift in Sources */,
+				OBJ_93 /* PythonLibrary+Symbols.swift in Sources */,
+				OBJ_94 /* PythonLibrary.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CommandLineKit::CommandLineKit /* CommandLineKit */;
+		};
+		OBJ_114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = LoggerKit::LoggerKit /* LoggerKit */;
+		};
+		OBJ_115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = PythonKit::PythonKit /* PythonKit */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PythonKit.xcodeproj/PythonTool_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = PythonTool;
+			};
+			name = Debug;
+		};
+		OBJ_105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PythonKit.xcodeproj/PythonTool_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = PythonTool;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PythonKit.xcodeproj/CommandLineKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CommandLineKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = CommandLineKit;
+			};
+			name = Debug;
+		};
+		OBJ_50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PythonKit.xcodeproj/CommandLineKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CommandLineKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = CommandLineKit;
+			};
+			name = Release;
+		};
+		OBJ_58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PythonKit.xcodeproj/LoggerKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = LoggerKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = LoggerKit;
+			};
+			name = Debug;
+		};
+		OBJ_65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PythonKit.xcodeproj/LoggerKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = LoggerKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = LoggerKit;
+			};
+			name = Release;
+		};
+		OBJ_82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PythonKit.xcodeproj/PythonKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PythonKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = PythonKit;
+			};
+			name = Debug;
+		};
+		OBJ_89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PythonKit.xcodeproj/PythonKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PythonKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = PythonKit;
+			};
+			name = Release;
+		};
+		OBJ_98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_103 /* Build configuration list for PBXNativeTarget "PythonTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_104 /* Debug */,
+				OBJ_105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "PythonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_48 /* Build configuration list for PBXNativeTarget "CommandLineKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_49 /* Debug */,
+				OBJ_50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_57 /* Build configuration list for PBXNativeTarget "CommandLineKitPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_58 /* Debug */,
+				OBJ_59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_63 /* Build configuration list for PBXNativeTarget "LoggerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_64 /* Debug */,
+				OBJ_65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_81 /* Build configuration list for PBXNativeTarget "LoggerKitPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_82 /* Debug */,
+				OBJ_83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_87 /* Build configuration list for PBXNativeTarget "PythonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_88 /* Debug */,
+				OBJ_89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_97 /* Build configuration list for PBXNativeTarget "PythonKitPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_98 /* Debug */,
+				OBJ_99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
